@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <color name="name_co">#ea8c12 </color>
+      <color name="slogan">#72af2e </color>
+      <color name="copyright">#999 </color>
+      <color name="activitybag">#FFF </color>
+      <color name="foot">#183b65 </color>
+      <color name="foot_select">#37bc9b </color>
+      <color name="menulayout">#eaedf0 </color>
+      <color name="menubac">#007f7f7f </color>
+      <color name="menutitle">#323b44 </color>
+      <color name="messageTestColor">#6cb92b </color>
+</resources>

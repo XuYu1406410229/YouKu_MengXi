@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetaileActivity" 
+    android:background="@color/activitybag">
+    <RelativeLayout android:id="@+id/backLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#F0F0F0"
+        android:layout_alignParentTop="true"
+        >
+        <Button android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:text="@string/goback"
+            android:textColor="#999999"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="3dp"
+            android:onClick="goBack"/>
+        
+    </RelativeLayout>
+    
+    
+ <WebView android:id="@+id/detaileWebview"
+     android:layout_width="fill_parent"
+     android:layout_height="match_parent"
+     android:background="#FFF"
+     android:layout_below="@+id/backLayout"
+     />
+</RelativeLayout>

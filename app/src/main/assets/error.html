@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Error.html</title>
+	
+    <script type="text/javascript">
+ function vMiddle(){
+    var middleDiv=document.getElementById("wrap");
+    var divHeight=middleDiv.offsetHeight;
+ var bodyHeight=document.body.offsetHeight ;
+ if(bodyHeight>divHeight)
+    middleDiv.style.marginTop=-divHeight/2+"px";
+  else{
+    middleDiv.style.marginTop=0;
+       middleDiv.style.top=0;
+    }
+}
+
+function loadUrl(){
+		AndroidJS.loadUrl();
+}
+</script>
+<style type="text/css">
+  html,body{height:100%;padding:0;margin:0;}
+   #wrap{width:100%;margin:0 auto; position:absolute;top:45%;left:50%; margin-left:-50%; text-align:center;}
+</style>
+</head>
+
+<body onload="vMiddle()" onclick="loadUrl()">
+    <div id="wrap">
+        <img src="error.png" style="width:50px; height:50px;"/>
+        <div style="margin-top:30px;">
+            网络连接失败&emsp;点击重新加载
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">宜库网</string>
+    <string name="action_settings">Settings</string>
+    <string name="icon">ms_icon</string>
+    <string name="copyright">Copyright © 2015 emengxi.com. All Rights Reserved</string>
+    <string name="goIndexBut">进入宜库网</string>
+    <string name="showImage">showImage</string>
+    <string name="title_activity_show">ShowActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_index">IndexActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="menuselect">请选择水泥用途</string>
+    <string name="home">首页</string>
+    <string name="ware">商品</string>
+    <string name="agency">经销商网络</string>
+    <string name="order">订单跟踪</string>
+    <string name="scanner">防伪查询</string>
+    <string name="location">配送区域</string>
+    <string name="server">咨询服务</string>
+    <string name="loadmessage">loading......</string>
+    <string name="urlhint">请输入URL地址</string>
+    <string name="slidego">页面右向左滑动跳转</string>
+    <string name="boostgo">页面放大缩小跳转</string>
+    <string name="secondactivity">营销人员页面</string>
+    <string name="setnetworktip">网络异常！</string>
+    <string name="setnetwork">设置网络</string>
+    <string name="network_reload">重试</string>
+    <string name="network_back">取消</string>
+    <string name="title_activity_detaile">DetaileActivity</string>
+    <string name="nonetworktips">网络链接失败！</string>
+    <string name="qucik_buy">快速订购</string>
+    <string name="view_order">查看订单</string>
+    <string name="title_activity_second">SecondActivity</string>
+    
+     <string name="customauditing">客户审核</string>
+    <string name="orderauditing">订单审核</string>
+    <string name="orderfollow">订单跟踪</string>
+    <string name="quickdispose">订单跟踪</string>
+    <string name="colseguid">知道啦！</string>
+    <string name="errortext">网络连接失败，点击重新加载</string>
+    
+    <string name="soft_update_title">软件更新</string>
+    <string name="soft_update_info">检测到新版本，立即更新吗</string>
+    <string name="soft_update_updatebtn">更新</string>
+    <string name="soft_update_later">稍后更新</string>
+    <string name="soft_updating">正在更新</string>
+    <string name="soft_update_cancel">取消</string>
+     <string name="goback">&lt;返回</string>
+    
+
+</resources>

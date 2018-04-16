@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity" 
+    android:background="@color/activitybag">
+    <ImageView android:id="@+id/main_image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/index_show"
+        android:layout_centerInParent="true"/>
+    <TextView android:id="@+id/copy"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/copyright"
+        android:textColor="@color/activitybag"
+        android:layout_alignParentBottom="true"
+		android:gravity="center_horizontal"
+        />
+
+</RelativeLayout>

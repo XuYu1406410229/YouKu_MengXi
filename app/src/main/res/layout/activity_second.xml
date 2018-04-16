@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IndexActivity"
+    android:background="@color/activitybag">
+
+    <WebView android:id="@+id/indexWeb1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/footlayout"
+
+        />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/footlayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/foot"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+
+
+        >
+
+        <ImageView
+            android:id="@+id/storage_menu1"
+            style="@style/footimage"
+            android:background="@color/foot_select"
+            android:contentDescription="@string/icon"
+            android:src="@drawable/storage"
+            />
+
+        <ImageView
+            android:id="@+id/treasure_menu1"
+            style="@style/footimage"
+            android:contentDescription="@string/icon"
+            android:src="@drawable/treasure"
+            android:visibility="gone"
+
+            />
+
+
+        <ImageView android:id="@+id/fullview_menu1"
+            android:contentDescription="@string/icon"
+            style="@style/footimage"
+            android:src="@drawable/fullview"
+            android:visibility="gone"
+
+            />
+
+
+
+        <RelativeLayout
+            android:id="@+id/library_menu1"
+            style="@style/footimage"
+            android:visibility="gone"
+            >
+
+            <ImageView
+                android:id="@+id/library1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/messagenum"
+                android:contentDescription="@string/icon"
+                android:src="@drawable/library"
+                />
+            <TextView
+                android:id="@+id/messagenum1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/messagenum"
+                android:layout_marginRight="10dp"
+                android:textSize="@dimen/messageTextSize"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/messageTestColor"
+                android:visibility="gone"
+                />
+        </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/mine_menu1"
+            style="@style/footimage"
+            android:contentDescription="@string/icon"
+            android:src="@drawable/mine"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout android:id="@+id/guidLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/guid"
+        android:visibility="gone"
+        >
+        <Button android:id="@+id/closeGUid1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/icon"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="80dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="closeGUid"
+            android:background="@drawable/iknow"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>
